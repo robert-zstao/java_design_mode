@@ -9,12 +9,14 @@
         <module name="factory" />
         <module name="prototype" />
         <module name="singleton" />
+        <module name="tactics" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="factory" target="8" />
-      <module name="prototype" target="8" />
-      <module name="singleton" target="8" />
+      <module name="factory" target="1.8" />
+      <module name="prototype" target="1.5" />
+      <module name="singleton" target="1.5" />
+      <module name="tactics" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
